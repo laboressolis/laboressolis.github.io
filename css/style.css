@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+
+
+
+
 li, a, button{
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -10,14 +14,14 @@ li, a, button{
 
 header{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     padding: 30px 5%;
     width: 100%;
 }
-
 .nav_links{
     list-style: none;
+    margin-left: 50px;
 }
 
 .nav_links li{
@@ -67,8 +71,3 @@ body{
     background-blend-mode: multiply; /* Experiment with other blend modes */
 }
 
-#maw {
-    height: 100%;
-    width: auto;
-    background-color: #0088a9;
-}
